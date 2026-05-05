@@ -1,16 +1,18 @@
 <p align="center">
-    <h1 align="center"><a href="https://arxiv.org/pdf/2409.14874" target="_blank">Segment, Interact, and Fuse: A Multi-Stage Framework for Multi-Phase CT Structured Report Generation</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/MCT2SMR-11C7" target="_blank">Segment, Interact, and Fuse: A Multi-Stage Framework for Multi-Phase CT Structured Report Generation</a></h1>
 </p>
+
 
 
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Introduction</a> |
+        <a href="#-Introduction">Introduction</a> |
         <a href="#-Getting Started">Highlights</a> |
         <a href="#-Getting Started">Getting Started</a> |
     <p>
 </h4>
+
 
 
 

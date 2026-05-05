@@ -113,7 +113,7 @@ class MCT2SMR(nn.Module):
                 mask = masks[:, index, :, :, :].unsqueeze(1)   # [1,1,240,480,480]
                 mask = to_one_hot_3d(mask.to(torch.long), self.out_channels, mask.device)  # [1,5,240,480,480]
                 segfeats = self.to_patch_emb(mask)             # [1, 20, 20, 20, 512]
-                segfeats, _ = pack([segfeats], 'b * d')        # [1, 8000, 512]  _:[(20, 20, 20)]  将多维张量重新排列并展平为指定的形状，同时保持批量维度和特征维度不变
+                segfeats, _ = pack([segfeats], 'b * d')        # [1, 8000, 512]  _:[(20, 20, 20)]  
 
                 seg_feats.append(segfeats)
 
